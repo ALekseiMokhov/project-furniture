@@ -1,7 +1,18 @@
 body {
-    background-color: orange;
+    background-color: #12343b;
 }
 
-h1 {
-    color: black;
+ h2 {
+        color: #c89666;
+        text-align:center;
+    }
+.signature{
+        text-align:center;
+ }
+.button{
+color: black;
+background-color: #c89666;
+margin-top: 30px;
+width: 100px;
+
 }

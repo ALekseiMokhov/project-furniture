@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+     >
+<head>
+    <meta name="description" content="Кухни на заказ">
+   <link rel="stylesheet" href="/css/style.css"/>
+
+</head>
+
+<body>
+<header>
+    <h1 class="txt"> Welcome, visitor! </h1>
+    <h3>
+        <p class="txt" th:text="${message}"></p>
+
+    </h3>
+</header>
+
+
+<main>
+    <nav>
+        <button class="button" onclick="document.location='faq'">
+            F.A.Q.</button>
+        <button class="button">Связь</button>
+        <button class="button" onclick="document.location='catalog'">
+        Каталог</button>
+
+</nav>
+
+    <div class="zastavka">
+        <img style="border-radius: 10px;" th:src="@{images/fur.png}" alt=" "/>
+    </div>
+</main>
+<footer>
+    <h6>desighned by A.Mokhov 2020</h6>
+</footer>
+
+</body>
+</html>

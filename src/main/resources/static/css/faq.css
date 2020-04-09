@@ -1,0 +1,16 @@
+body{
+background-color:#12343b;
+text-align:center;
+}
+h2 {
+        color: #c89666;
+        margin-bottom:75px;
+
+}
+
+.button{
+color: black;
+background-color: #c89666;
+margin-top: 30px;
+width: 100px;
+}

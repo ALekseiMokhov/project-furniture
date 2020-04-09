@@ -1,0 +1,26 @@
+body{
+
+margin auto;
+text-align: center;
+background-color: #12343b;
+}
+.txt{
+color: grey;
+}
+
+.button{
+color: black;
+background-color: #c89666;
+margin-top: 30px;
+width: 100px;
+}
+
+.zastavka{
+margin-top:10px;
+opacity:20%;
+border-radius: 10px;
+
+
+}
+footer{
+margin-top: 100px;}
