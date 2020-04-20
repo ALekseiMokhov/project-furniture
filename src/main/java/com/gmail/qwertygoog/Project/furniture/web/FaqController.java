@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class FaqController {
     @GetMapping
     String getFaq(){
-        return "faq/faq";
+        return "faq";
     }
 }

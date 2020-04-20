@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<head>
+    <link rel="stylesheet" href="css/faq.css"/>
+    <link rel="shortcut icon" href="images/spring_icon.png" type="image/png">
+    <style>
+    .border{
+
+    border: 2px solid #c89666;
+
+    border-radius:5px;
+    }
+     ul{
+    margin: auto;
+    list-style-position:inside;
+    width: 500px; /* Ширина элемента в пикселах */
+    padding: 14px; /* Поля вокруг текста */
+    opacity: 0.9;
+    }
+
+     ul li{
+     color: #c89666;
+     font-weight: bold;
+     font-size: 1.3em;
+     text-align: left;
+
+}
+
+.button{
+color: black;
+background-color: #c89666;
+margin-top: 200px;
+width: 100px;
+}
+
+  </style>
+</head>
+<body>
+    <h1>Наши преимущества:</h1>
+    <div >
+        <ul class="border">
+            <li><span>более 50 выполненных индивидуальных заказов;</span></li>
+            <li><span>лучшие цены на материалы и комплектующие;</span></li>
+            <li><span>профессиональное оборудование и инструмент;</span></li>
+            <li><span>индивидуальный дизайн;</span></li>
+            <li><span>доставка и сборка за счет изготовителя;</span></li>
+        </ul>
+    </div>
+<footer>
+    <button class="button" onclick="document.location='/'">
+        Назад</button>
+    <button class="button" onclick="document.location='catalog'">
+        Каталог</button>
+    <button class="button" onclick="window.location.href = 'https://vk.com/memphisaton';">
+        Контакт</button>
+</footer>
+</body>
+</html>

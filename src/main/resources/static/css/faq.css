@@ -1,16 +1,11 @@
 body{
+text-align: center;
 background-color:#12343b;
-text-align:center;
+font-size: 18 px;
 }
-h2 {
-        color: #c89666;
-        margin-bottom:75px;
+h1{
+   color: #c89666;
+   margin-bottom:10%;
+   margin-top:10%;
+}
 
-}
-
-.button{
-color: black;
-background-color: #c89666;
-margin-top: 30px;
-width: 100px;
-}

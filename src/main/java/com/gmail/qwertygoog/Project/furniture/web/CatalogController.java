@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CatalogController {
     @GetMapping
     public String getCatalog(){
-        return"catalog/catalog";
+        return"catalog";
     }
 }

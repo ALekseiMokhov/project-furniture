@@ -1,6 +1,4 @@
 body{
-
-margin auto;
 text-align: center;
 background-color: #12343b;
 }
@@ -16,11 +14,9 @@ width: 100px;
 }
 
 .zastavka{
-margin-top:10px;
+margin-top:20px;
 opacity:20%;
 border-radius: 10px;
-
-
 }
 footer{
 margin-top: 100px;}

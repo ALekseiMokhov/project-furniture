@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MyErrorController implements ErrorController {
 
-    @GetMapping("/error")
+    @GetMapping("error")
     @Override
     public String getErrorPath() {
-        return "error/error";
+        return "error";
     }
 }
